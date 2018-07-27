@@ -1,0 +1,4 @@
+生产proto java文件,protoc如果没有配置环境变量，使用绝对路径
+protoc  --java_out=./src/main/java  ./src/main/protos/*.proto
+
+启动程序：可以直接执行start类；也可以执行jar包，java -jar xxx.jar
